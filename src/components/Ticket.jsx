@@ -5,14 +5,23 @@ function Ticket(props){
   var ticketStyles = {
     backgroundColor: 'lightblue',
     fontSize: '24px',
-    color: 'orange'
+    color: 'orange',
+    width: '55%',
+    display: 'block',
+    height: '400px',
+    // margin: '50px',
+    float: 'right'
+  }
+
+  var clamSize = {
+  width: '350px'
   }
   return (
       <div style={ticketStyles}>
         <h3>{props.location} - {props.names}</h3>
         <p><em>{props.issue}</em></p>
-        <img src= 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Clams_on_Sandy_Hook_beaches_-_panoramio.jpg'/>
         <hr/>
+        <img style={clamSize} src= 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Clams_on_Sandy_Hook_beaches_-_panoramio.jpg'/>
       </div>
   );
 }

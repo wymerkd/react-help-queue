@@ -4,7 +4,11 @@ function MyStyledComponent(props) {
   var myStyledComponentStyles = {
     backgroundColor: '#ecf0f1',
     fontFamily: 'sans-serif',
-    paddingTop: '50px'
+    paddingTop: '100px',
+    display: 'inline-block',
+    marginTop: '20px',
+    width: '100%',
+    float: 'left'
   }
   return (
     <div style={myStyledComponentStyles}>
