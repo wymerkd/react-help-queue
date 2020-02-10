@@ -11,6 +11,7 @@ function Ticket(props){
       <div style={ticketStyles}>
         <h3>{props.location} - {props.names}</h3>
         <p><em>{props.issue}</em></p>
+        <img src= 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Clams_on_Sandy_Hook_beaches_-_panoramio.jpg'/>
         <hr/>
       </div>
   );

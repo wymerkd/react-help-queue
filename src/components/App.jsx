@@ -5,8 +5,11 @@ import MyStyledComponent from "./MyStyledComponent";
 
 
 function App(){
+var cWholeApp = {
+  textAlign: 'center'
+}
   return (
-    <div>
+    <div style = {cWholeApp}>
       <Header/>
       <TicketList/>
       <MyStyledComponent/>
